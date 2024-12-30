@@ -1,0 +1,5 @@
+<launch>
+  <param name="grid" value="$(find turtlebot_plan_nav)/stage4_grid.npy" />
+  <param name="goal_position" value="[25, 25]" />
+  <node pkg="turtlebot_plan_nav" type="rrt_planner.py" name="rrt_planner" output="screen" />
+</launch>

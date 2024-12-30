@@ -1,0 +1,2 @@
+grid: "$(find turtlebot_plan_nav)/stage4_grid.npy"
+goal_position: [25, 25]
